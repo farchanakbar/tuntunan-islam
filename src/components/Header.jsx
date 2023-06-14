@@ -23,8 +23,9 @@ function Header() {
   return (
     <div className={cn(
       'w-full',
-      'h-[200px]',
-      'bg-masjid',
+      'h-[330px]',
+      'bg-masjid3',
+      'xl:bg-center',
       'bg-cover',
       'p-5',
       'flex',
@@ -36,7 +37,7 @@ function Header() {
           'text-black',
           'text-xl',
           'font-medium',
-          'text-center'
+          'text-center',
         )}>Perintahkanlah keluargamu mendirikan sholat dan bersabarlah kamu dalam mengerjakannya. Kami tidak meminta rezeki kepadamu, Kamilah yang memberi rezeki kepadamu. Akibat (yang baik) itu adalah bagi orang yang bertakwa.</h1>
         <p className={cn(
           'text-center',

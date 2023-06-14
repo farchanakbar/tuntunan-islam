@@ -8,6 +8,8 @@ export default {
       },
       backgroundImage: {
         masjid: "url('/src/assets/mosque.jpg')",
+        masjid2: "url('/src/assets/masjid.jpg')",
+        masjid3: "url('/src/assets/mekkah.jpg')",
       },
     },
   },

@@ -30,7 +30,8 @@ function AsmahulHusna() {
       )}>Asmaul Husna</h1>
       <ul className={cn(
         'grid',
-        'grid-cols-2',
+        'grid-cols-1',
+        'md:grid-cols-2',
         'xl:grid-cols-3',
         'gap-3',
         'mb-5'
