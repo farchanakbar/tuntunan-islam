@@ -46,8 +46,8 @@ function NiatSholat() {
             'flex',
             'gap-3'
           )}>
-            <h3 className='xl:text-2xl'>{item.number}.</h3>
-            <h1 className='xl:text-2xl'>{item.name}</h1>
+            <h3 className='xl:text-xl'>{item.number}.</h3>
+            <h1 className='xl:text-xl'>{item.name}</h1>
           </div>
           <h3 className={cn(
             'text-4xl',
@@ -59,11 +59,11 @@ function NiatSholat() {
           <p className={cn(
             'text-start',
             'text-slate-400',
-            'xl:text-xl'
+            'xl:text-lg'
           )}>{item.latin}</p>
           <p className={cn(
             'text-slate-200',
-            'xl:text-xl'
+            'xl:text-lg'
           )}>Artinya : {item.translation}</p>
         </li>))}
       </ul>

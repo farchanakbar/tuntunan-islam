@@ -59,7 +59,7 @@ function AsmahulHusna() {
             'text-end',
             'xl:text-5xl'
           )}>{item.arabic}</h1>
-          <p className='text-slate-200 xl:text-xl'>Artinya : {item.id_translation}</p>
+          <p className='text-slate-200 xl:text-lg'>Artinya : {item.id_translation}</p>
         </li>))}
       </ul>
         <button onClick={total} className={cn(
